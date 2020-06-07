@@ -1,0 +1,29 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "node-mysql",
+  "main": "src/main/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "log4js": "^6.3.0",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.1",
+    "uuid": "^8.1.0"
+  },
+  "_moduleAliases": {
+    "@src": "src",
+    "@db": "src/main/node/db",
+    "@controller": "src/main/node/controller",
+    "@utils": "src/main/node/utils",
+    "@comm": "src/main/node/comm",
+    "@log": "src/main/node/log",
+    "@middleware": "src/main/node/middleware"
+  }
+}
